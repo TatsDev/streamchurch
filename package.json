@@ -5,7 +5,8 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "stream-serve": "node main.js"
   },
   "dependencies": {
     "bootstrap": "^4.3.1",
@@ -13,7 +14,9 @@
     "jquery": "^3.4.1",
     "popper.js": "^1.16.0",
     "rtcmulticonnection": "^3.6.9",
+    "twitch-js": "^2.0.0-beta.30",
     "vue": "^2.6.10",
+    "vue-plugin-load-script": "^1.2.0",
     "vue-router": "^3.1.3",
     "webrtc-adapter": "^7.3.0"
   },
@@ -29,6 +32,25 @@
     "node-sass": "^4.12.0",
     "prettier": "^1.18.2",
     "sass-loader": "^8.0.0",
-    "vue-template-compiler": "^2.6.10"
-  }
+    "vue-template-compiler": "^2.6.10",
+    "vue-twitch-player": "^1.0.8"
+  },
+  "description": "## Project setup ``` npm install ```",
+  "main": ".eslintrc.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tatadavila/streamchurchserver.git"
+  },
+  "keywords": [
+    "stream",
+    "video",
+    "breadcast",
+    "server"
+  ],
+  "author": "Tatiana Davila A.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tatadavila/streamchurchserver/issues"
+  },
+  "homepage": "https://github.com/tatadavila/streamchurchserver#readme"
 }

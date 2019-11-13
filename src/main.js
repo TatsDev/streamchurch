@@ -8,8 +8,12 @@ window.$ = window.jQuery = jQuery;
 import "popper.js";
 import "bootstrap";
 import "./assets/app.scss";
+import LoadScript from "vue-plugin-load-script";
+
+Vue.use(LoadScript);
 
 Vue.component("Navbar", require("./components/Navbar.vue").default);
+Vue.component("StreamWindow", require("./components/StreamWindow.vue").default);
 
 Vue.config.productionTip = false;
 
